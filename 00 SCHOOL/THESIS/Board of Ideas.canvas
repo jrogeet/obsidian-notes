@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"33511d735ba842b7","type":"text","text":"### Home Page\n- INTRODUCTION\n- How to use","x":-393,"y":-139,"width":250,"height":139},
+		{"id":"e1a6ff627da1b6f6","type":"text","text":"### About\n- Explanation of about RIASEC\n- Team\n","x":-120,"y":-137,"width":250,"height":137},
+		{"id":"a481d0f64a924117","type":"text","text":"### Dashboard\n- Rooms (each square has minimal shapes in the background which has different variations of colors from the color palette)\n- Join Input Field (Students)\n- Create Room Input Field (Professors)","x":-393,"y":51,"width":250,"height":242},
+		{"id":"3272156bbe4e2072","type":"text","text":"### Student Room\n- Posts/Announcements of Professors\n- Groups \n- Students List","x":-120,"y":52,"width":250,"height":213},
+		{"id":"09be2b468029c795","type":"text","text":"### Professor Room\n- Post/Announcement Field\n- Join Requests tab\n- Room Settings (Change room name etc.)\n- Students List\n- Groups\n- Edit Room (Room name etc.)","x":-120,"y":312,"width":250,"height":228},
+		{"id":"9000b9b7863d1ee7","type":"text","text":"### Test Page\n- Questions","x":160,"y":89,"width":250,"height":92},
+		{"id":"bc032ab794e12928","type":"text","text":"### Account / Profile\n- Account Settings\n- Change Name\n- Change Password\n- Take Test\n- Test Result","x":190,"y":-138,"width":190,"height":182},
+		{"id":"0c7d48cce9394b83","type":"text","text":"#### ADMIN Account List\n- Students and Professors Table of Information","x":-680,"y":-169,"width":250,"height":125},
+		{"id":"e4d9f3ee76369c86","type":"text","text":"#### ADMIN Room List\n- Rooms Information table","x":-680,"y":107,"width":250,"height":81},
+		{"id":"53229ab1a0bdabf7","type":"text","text":"#### ADMIN Edit Room\n- Edit Room Info \n- Change Room Professor","x":-680,"y":215,"width":250,"height":100},
+		{"id":"761beb42513271a5","type":"text","text":"#### ADMIN Edit Account\n- Change information of users","x":-679,"y":-15,"width":250,"height":81},
+		{"id":"e472a71435602e8a","type":"text","text":"#### Tickets\n- Table of tickets with a column for status\n- Tabs to sort: Pending, Solved","x":-680,"y":338,"width":250,"height":117},
+		{"id":"9cbcc5c58301c74f","type":"text","text":"#### ADMIN Dashboard\n- Total Users (Prof & Students Count)\n- Table of Recently Registered Users\n- Table of Recently Created Rooms","x":-960,"y":-169,"width":250,"height":194},
+		{"id":"4d55a94c9852725e","type":"text","text":"#### ADMIN Account Settings\n- Change ADMIN Account Info.","x":-960,"y":62,"width":250,"height":81},
+		{"id":"4918547a2ab3758d","type":"text","text":"#### ADMIN Log Trail\n- Display activites of users","x":-960,"y":172,"width":250,"height":89},
+		{"id":"7e00d0a9faec0e06","type":"text","text":"#### Create Account\n- Directly Create an Account for a User\n- Can also make another ADMIN account","x":-960,"y":293,"width":250,"height":156},
+		{"id":"5a3f0bf64189432e","type":"text","text":"### Tie Option","x":160,"y":201,"width":250,"height":60},
+		{"id":"d1053296c908fc61","type":"text","text":"### Results Page\n- Result\n","x":160,"y":276,"width":250,"height":95},
+		{"id":"5e870e5c8c084233","type":"text","text":"# Contents of each page","x":-380,"y":-260,"width":301,"height":60},
+		{"id":"f414691b7a0b211a","type":"text","text":"### Submit Ticket\n- Submit Ticket form","x":-393,"y":312,"width":250,"height":102},
+		{"id":"a2e8f7dede4f5809","x":445,"y":241,"width":250,"height":173,"type":"text","text":"footer:\nSubmit ticket\nNavigation of Pages\nContact"}
+	],
+	"edges":[
+		{"id":"ac1258676d89a49e","fromNode":"33511d735ba842b7","fromSide":"right","toNode":"e1a6ff627da1b6f6","toSide":"left","toEnd":"none"},
+		{"id":"65f85dcb56fd913b","fromNode":"3272156bbe4e2072","fromSide":"bottom","toNode":"09be2b468029c795","toSide":"top","fromEnd":"arrow"},
+		{"id":"dce96dcc11b9ea60","fromNode":"bc032ab794e12928","fromSide":"bottom","toNode":"9000b9b7863d1ee7","toSide":"top"},
+		{"id":"3ff670f3e0909aed","fromNode":"9000b9b7863d1ee7","fromSide":"bottom","toNode":"d1053296c908fc61","toSide":"top"},
+		{"id":"feee0ab34efef142","fromNode":"0c7d48cce9394b83","fromSide":"bottom","toNode":"761beb42513271a5","toSide":"top"},
+		{"id":"e90f92aa9e7c97f9","fromNode":"e4d9f3ee76369c86","fromSide":"bottom","toNode":"53229ab1a0bdabf7","toSide":"top"}
+	]
+}

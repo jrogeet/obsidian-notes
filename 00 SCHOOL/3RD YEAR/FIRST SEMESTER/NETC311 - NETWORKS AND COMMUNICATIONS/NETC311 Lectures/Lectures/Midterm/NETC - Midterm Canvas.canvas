@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"93e1aa348dfcbdb0","type":"text","text":"# Data Link Layer","x":-960,"y":-3100,"width":200,"height":100},
+		{"id":"47bf0cab378da9d8","type":"file","file":"00 SCHOOL/3RD YEAR/FIRST SEMESTER/NETC311 - NETWORKS AND COMMUNICATIONS/NETC311 Lectures/Lectures/Midterm/NETC - Midterm Summary.md","subpath":"#Topology","x":-1160,"y":-2920,"width":400,"height":2960},
+		{"id":"44be41f006c78450","type":"file","file":"00 SCHOOL/3RD YEAR/FIRST SEMESTER/NETC311 - NETWORKS AND COMMUNICATIONS/NETC311 Lectures/Lectures/Midterm/NETC - Midterm Summary.md","subpath":"#Data Link Layer","x":-1640,"y":-2920,"width":400,"height":920},
+		{"id":"44c710b6cdd284f4","type":"file","file":"00 SCHOOL/3RD YEAR/FIRST SEMESTER/NETC311 - NETWORKS AND COMMUNICATIONS/NETC311 Lectures/Lectures/Midterm/NETC - Midterm Summary.md","subpath":"#Data Link Frame","x":-710,"y":-2920,"width":400,"height":1240},
+		{"id":"3b5d07a228940109","x":-2040,"y":-3720,"width":400,"height":656,"type":"file","file":"00 SCHOOL/3RD YEAR/FIRST SEMESTER/NETC311 - NETWORKS AND COMMUNICATIONS/NETC311 Lectures/Lectures/Midterm/NETC - Midterm Summary.md","subpath":"#Ethernet Frames"},
+		{"id":"589f30360b7f34f0","x":-2440,"y":-4000,"width":200,"height":100,"type":"text","text":"# Ethernet Switching"},
+		{"id":"f1168ff80922380c","x":-2495,"y":-3739,"width":400,"height":2559,"type":"file","file":"00 SCHOOL/3RD YEAR/FIRST SEMESTER/NETC311 - NETWORKS AND COMMUNICATIONS/NETC311 Lectures/Lectures/Midterm/NETC - Midterm Summary.md","subpath":"#Ethernet MAC Address"},
+		{"id":"79df47490231e71c","x":-3040,"y":-3900,"width":400,"height":2344,"type":"file","file":"00 SCHOOL/3RD YEAR/FIRST SEMESTER/NETC311 - NETWORKS AND COMMUNICATIONS/NETC311 Lectures/Lectures/Midterm/NETC - Midterm Summary.md","subpath":"#Mac Address Table"}
+	],
+	"edges":[
+		{"id":"05fc9fd0ffc249c0","fromNode":"44be41f006c78450","fromSide":"top","toNode":"93e1aa348dfcbdb0","toSide":"left"},
+		{"id":"6bbd3f4e63196d5d","fromNode":"93e1aa348dfcbdb0","fromSide":"bottom","toNode":"47bf0cab378da9d8","toSide":"top"},
+		{"id":"98d0edaa2b12ee66","fromNode":"44c710b6cdd284f4","fromSide":"top","toNode":"93e1aa348dfcbdb0","toSide":"right"},
+		{"id":"f17a1038532d4cb9","fromNode":"589f30360b7f34f0","fromSide":"right","toNode":"3b5d07a228940109","toSide":"top"},
+		{"id":"14381188de3bbdbc","fromNode":"44be41f006c78450","fromSide":"left","toNode":"3b5d07a228940109","toSide":"bottom"},
+		{"id":"7ee97bbaaf5c6927","fromNode":"f1168ff80922380c","fromSide":"top","toNode":"589f30360b7f34f0","toSide":"bottom"},
+		{"id":"20c640335c94ea4f","fromNode":"79df47490231e71c","fromSide":"top","toNode":"589f30360b7f34f0","toSide":"left"}
+	]
+}

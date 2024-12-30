@@ -1,0 +1,1 @@
+Blockchain is a "__timestamped append-only log__"

@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"20dd13a9fe1f4fca","type":"text","text":"","x":-585,"y":-445,"width":250,"height":60},
+		{"id":"5168156b48357cca","type":"text","text":"## DESIGN\n- Figma\n- TailwindCSS\n- ","x":-840,"y":-680,"width":195,"height":180}
+	],
+	"edges":[]
+}
